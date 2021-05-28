@@ -8,7 +8,6 @@
     "build": "ui5 build"
   },
   "dependencies": {
-    "@openui5/themelib_sap_fiori_3": "^1"
   },
   "devDependencies": {
     "@ui5/cli": "^2.0.0"

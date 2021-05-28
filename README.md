@@ -1,1 +1,12 @@
 # SAP tutorial navigation
+- [download zip with the project part 1](https://openui5.hana.ondemand.com/entity/sap.ui.core.tutorial.navigation)
+- ``` git init ```
+- ``` remove ui5.yaml ```
+- ``` ui5 init ```
+- ``` ui5 use SAPUI5@1.76.0 ```
+- ``` ui5 add sap.ui.core sap.m sap.ui.layout themelib_sap_fiori_3```
+- change bootstrap location to https://sapui5.hana.ondemand.com/resources/sap-ui-core.js
+- change namespase from `sap.ui.demo.nav` to `com.zwork.znav`
+- change pathes in files from `sap/ui/demo/nav/` to `com/zwork/znav/`
+- ``` ui5 serve -o index.html ```
+- [opened](http://localhost:8080/index.html)

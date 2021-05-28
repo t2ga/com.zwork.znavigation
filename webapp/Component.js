@@ -3,7 +3,7 @@ sap.ui.define([
 ], function (UIComponent) {
 	"use strict";
 
-	return UIComponent.extend("sap.ui.demo.nav.Component", {
+	return UIComponent.extend("com.zwork.znav.Component", {
 
 		metadata: {
 			manifest: "json"

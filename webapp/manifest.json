@@ -1,7 +1,7 @@
 {
 	"_version": "1.21.0",
 	"sap.app": {
-		"id": "sap.ui.demo.nav",
+		"id": "com.zwork.znav",
 		"type": "application",
 		"i18n": {
 			"bundleUrl": "i18n/i18n.properties",
@@ -36,7 +36,7 @@
   	},
 	"sap.ui5": {
 		"rootView": {
-			"viewName": "sap.ui.demo.nav.view.App",
+			"viewName": "com.zwork.znav.view.App",
 			"type": "XML",
 			"async": true,
 			"id": "app"
@@ -52,7 +52,7 @@
 			"i18n": {
 				"type": "sap.ui.model.resource.ResourceModel",
 				"settings": {
-					"bundleName": "sap.ui.demo.nav.i18n.i18n",
+					"bundleName": "com.zwork.znav.i18n.i18n",
 					"supportedLocales": [
 						""
 					],
