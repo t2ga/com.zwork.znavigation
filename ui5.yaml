@@ -1,6 +1,6 @@
 specVersion: '2.3'
 metadata:
-  name: com.zwork.znav
+  name: com.zwork.znavigation
 type: application
 framework:
   name: SAPUI5

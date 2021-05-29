@@ -6,7 +6,8 @@
 - ``` ui5 use SAPUI5@1.76.0 ```
 - ``` ui5 add sap.ui.core sap.m sap.ui.layout themelib_sap_fiori_3```
 - change bootstrap location to https://sapui5.hana.ondemand.com/resources/sap-ui-core.js
-- change namespase from `sap.ui.demo.nav` to `com.zwork.znav`
-- change pathes in files from `sap/ui/demo/nav/` to `com/zwork/znav/`
+- change namespase from `sap.ui.demo.nav` to `com.zwork.znavigation`
+- change pathes in files from `sap/ui/demo/nav/` to `com/zwork/znavigation/`
+- [create and add favicon](https://favicon.io/emoji-favicons/) 
 - ``` ui5 serve -o index.html ```
-- [opened](http://localhost:8080/index.html)
+- [App is opened in a browser](http://localhost:8080/index.html)

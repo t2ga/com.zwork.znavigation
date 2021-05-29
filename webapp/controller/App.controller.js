@@ -3,7 +3,7 @@ sap.ui.define([
 ], function (Controller) {
 	"use strict";
 
-	return Controller.extend("com.zwork.znav.controller.App", {
+	return Controller.extend("com.zwork.znavigation.controller.App", {
 
 		onInit: function () {
 
