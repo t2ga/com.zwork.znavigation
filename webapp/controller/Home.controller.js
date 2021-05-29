@@ -1,9 +1,9 @@
 sap.ui.define([
-    "sap/ui/core/mvc/Controller"
-], function (Controller) {
+    "com/zwork/znavigation/controller/BaseController"
+], function (BaseController) {
     "use strict";
 
-    return Controller.extend("com.zwork.znavigation.controller.Home", {
+    return BaseController.extend("com.zwork.znavigation.controller.Home", {
 
     });
 });
