@@ -12,7 +12,7 @@
 		"ResumeID": 1,
 		"Resume" : {
 			"__deferred": {
-				"uri": "/here/goes/your/serviceUrl/Employees(1)/Resume"
+				"uri": "/Employees(1)/Resume"
 			}
 		}
 	},
