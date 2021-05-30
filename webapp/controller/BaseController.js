@@ -21,6 +21,9 @@ sap.ui.define([
 				window.history.go(-1);
 			} else {
 				this.getRouter().navTo("appHome", {}, true /*no history*/);
+                /*
+                    The router is smart enough to detect that the current hash did not change and therefore skips the navigation to the route.
+                 */
 			}
 		}
 
