@@ -23,6 +23,10 @@ sap.ui.define([
                 fromTarget: "home" 
 
             }); //'this' is a controller
+        },
+
+        onNavToEmployees: function()  {
+            this.getRouter().navTo("employeeList");
         }
     });
 });
